@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- BORRADOR: quita la línea siguiente cuando el portafolio esté terminado, para que Google lo indexe -->
+<meta name="robots" content="noindex, nofollow">
+<title>Casos · BOCA. · Alejandro Bocanegra</title>
+<script>try{if(sessionStorage.getItem("fxs")){document.documentElement.classList.add("fxs");sessionStorage.removeItem("fxs")}}catch(e){}</script>
+<style>html.fxs body{visibility:hidden;animation:fxshow 0s 1.5s forwards}@keyframes fxshow{to{visibility:visible}}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+:root{--obs:#101010;--char:#292929;--conc:#777;--silver:#D6D6D3;--ivory:#F4F2EE;--crim:#A51F2B;--sub:#555;
+--hd:"Space Grotesk",system-ui,sans-serif;--tx:"DM Sans",system-ui,sans-serif;--mo:"IBM Plex Mono",ui-monospace,monospace;--sf:"Cormorant Garamond",Georgia,serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--obs);font:17px/1.65 var(--tx)}
+a{color:inherit}a:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.w{max-width:60rem;margin:0 auto;padding:0 1.25rem}
+.mo{font:400 .78rem var(--mo);letter-spacing:.08em;text-transform:uppercase}
+.sub{color:var(--sub)}
+.dk{background:var(--obs);color:var(--ivory)}
+.top{display:flex;justify-content:space-between;padding:1.25rem 0;border-bottom:1px solid var(--char)}
+.top a{text-decoration:none}.top .logo{font:700 1.3rem var(--hd)}.top .mo{color:var(--silver)}
+.hero{padding:3rem 0 3.5rem}
+h1{font:700 clamp(2.8rem,11vw,7rem)/.92 var(--hd);letter-spacing:-.04em;margin:.8rem 0 1.2rem}
+h1 i{display:inline-block;width:.14em;height:.14em;background:var(--crim);margin-left:.03em}
+.sum{font:italic 500 clamp(1.5rem,3.6vw,2.3rem)/1.2 var(--sf);color:var(--silver);max-width:40rem;margin:0 0 2rem}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));border-top:1px solid var(--conc)}
+.meta div{padding:.8rem 1rem .8rem 0;border-bottom:1px solid var(--conc);color:var(--silver);font-size:.95rem}
+.meta b{display:block;color:var(--ivory);font-family:var(--mo);font-weight:400;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase}
+.sec{display:grid;grid-template-columns:11rem 1fr;gap:1rem 2rem;padding:2.2rem 0;border-top:2px solid var(--obs)}
+.sec h2{font:700 1.6rem/1.1 var(--hd);letter-spacing:-.02em;margin:0 0 .8rem}
+.sec p{margin:0 0 .9rem;max-width:38rem}
+.sec ul{margin:0 0 1rem;padding:0;list-style:none;max-width:38rem}
+.sec li{padding:.45rem 0;border-bottom:1px solid #d3d0c8}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:1rem;margin:1rem 0}
+.stats div{border:2px solid var(--obs);padding:.8rem}
+.stats b{display:block;font:700 2rem/1 var(--hd)}
+.flow{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:.5rem 0 1rem}
+.flow span{border:1.5px solid var(--obs);padding:.2rem .8rem;border-radius:999px;font-size:.92rem}
+.flow s{text-decoration:none;color:var(--sub)}
+.sw{display:flex;flex-wrap:wrap;gap:.6rem;margin:.5rem 0 1rem}
+.sw div{width:5.2rem;height:5.2rem;display:flex;align-items:flex-end;padding:.35rem;font:400 .68rem var(--mo);border:1px solid var(--obs)}
+.todo{border:2px dashed var(--crim);padding:.8rem 1rem;max-width:38rem;margin:.5rem 0 1rem;font-size:.95rem}
+.todo b{font-family:var(--mo);font-weight:500;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--crim)}
+.btn{display:inline-block;padding:.55rem 1.1rem;border:2px solid currentColor;text-decoration:none;font-weight:600;margin:.4rem .6rem 0 0}
+.btn:hover{background:var(--obs);color:var(--ivory)}
+.nav2{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding:2.5rem 0}
+footer{padding:1.5rem 0 2.5rem;color:var(--silver)}
+.case{display:none}.case.on{display:block}
+@media (max-width:44rem){.sec{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+figure{margin:1.2rem 0}figure img{display:block;width:100%;height:auto;border:1px solid var(--obs)}figcaption{margin-top:.4rem}.fw{max-width:60rem;margin:0 auto;padding:2rem 1.25rem 0}
+</style>
+<noscript><style>.case{display:block}</style></noscript>
+</head>
+<body>
+<!-- EDITAR: busca los bloques "POR COMPLETAR" (cajas con borde rojo punteado), reemplázalos con tu dato real o bórralos.
+     Imágenes: puedes añadir <img src="img/archivo.webp" alt="descripción" loading="lazy" style="max-width:100%"> dentro de cualquier sección. -->
+
+<article class="case" id="maespro">
+<header class="dk"><div class="w">
+  <div class="top"><a class="logo" href="index.html">BOCA.</a><a class="mo" href="index.html#casos">← Todos los casos</a></div>
+  <div class="hero">
+    <div class="mo" style="color:var(--silver)">Caso 03 · BOCA / Digital</div>
+    <h1>MaesPro<i></i></h1>
+    <p class="sum">Concepto de app para encontrar, evaluar y contratar servicios del hogar con confianza.</p>
+    <div class="meta">
+      <div><b>Mi rol</b>Diseño UX/UI: investigación inicial, arquitectura, wireframes, interfaz y prototipo</div>
+      <div><b>Herramientas</b>Figma, Illustrator</div>
+      <div><b>Alcance</b>Concepto. No está desarrollado</div>
+      <div><b>Entregable</b>Prototipo interactivo en Figma</div>
+    </div>
+  </div>
+</div></header>
+<main class="w">
+  <div class="fw"><figure><img src="img/maespro-portada.webp" alt="Pantallas de la app MaesPro" loading="lazy"><figcaption class="mo sub">Interfaz final de MaesPro</figcaption></figure></div>
+  <section class="sec"><div class="mo sub">01 · Problema</div><div>
+    <h2>Pedir un arreglo en casa es incierto.</h2>
+    <p>Al analizar el recorrido del usuario encontré cuatro fricciones:</p>
+    <ul><li>Encontrar profesionales confiables exige un esfuerzo agotador.</li><li>La calidad del servicio depende de la suerte.</li><li>Los presupuestos varían y dificultan decidir.</li><li>Dejar entrar a desconocidos a casa genera sensación de vulnerabilidad.</li></ul>
+  </div></section>
+  <section class="sec"><div class="mo sub">02 · Objetivo</div><div>
+    <h2>Una experiencia rápida, transparente y segura.</h2>
+    <p>Diseñar una experiencia digital intuitiva para encontrar, evaluar y contratar servicios del hogar. La apoyé en tres bases: <strong>confianza</strong> (perfiles verificados y datos reales), <strong>transparencia</strong> (claridad en cada condición) y <strong>simplicidad</strong> (los pasos mínimos para completar una solicitud).</p>
+  </div></section>
+  <section class="sec"><div class="mo sub">03 · Investigación</div><div>
+    <h2>Entender antes de diseñar.</h2>
+    <p>Entrevisté a 2 personas de mi entorno y lancé una encuesta en Google Forms sobre cómo buscan ayuda para el hogar. Es una validación inicial: la muestra es pequeña y no pretende ser representativa.</p>
+    <figure><img src="img/maespro-investigacion.webp" alt="Resultados de la encuesta en gráficos" loading="lazy"><figcaption class="mo sub">Resultados de la encuesta en Google Forms</figcaption></figure><div class="stats"><div><b>80%</b>prefiere esperar más con tal de conseguir un profesional recomendado</div><div><b>100%</b>busca referencias antes de contratar</div><div><b>50%</b>ha sufrido por cambios inesperados en el costo</div></div>
+    <div class="todo"><b>Por completar</b><br>Número de personas que respondieron la encuesta. Sin ese dato, los porcentajes pueden malinterpretarse.</div>
+    <p><strong>Insight principal:</strong> el precio pasa a un segundo plano. Lo que la gente busca es la tranquilidad de poner su hogar en manos de alguien confiable.</p>
+    <p>A partir de lo aprendido definí dos perfiles de usuario: <strong>Laura Martínez</strong> (34 años, administradora de empresas), que quiere comparar opciones y sentirse segura; y <strong>Carlos Ruiz</strong> (46 años, gerente de proyectos), que tiene poco tiempo y prefiere delegar en profesionales verificados.</p>
+  </div></section>
+  <section class="sec"><div class="mo sub">04 · Solución</div><div>
+    <h2>Descubrir, evaluar, solicitar.</h2>
+    <p>MaesPro reúne la búsqueda y la contratación en un solo lugar: explorar categorías, revisar el perfil, la experiencia y las valoraciones del profesional, y enviar una solicitud clara.</p>
+    <div class="flow"><span>Inicio</span><s>›</s><span>Categoría</span><s>›</s><span>Profesional</span><s>›</s><span>Solicitud</span><s>›</s><span>Confirmación</span></div>
+    <p>Organicé primero la estructura de navegación para mantener el recorrido lo más corto posible y dejar claro qué puede hacer el usuario en cada momento.</p>
+  </div></section>
+  <section class="sec"><div class="mo sub">05 · Proceso</div><div>
+    <h2>Del papel al prototipo.</h2>
+    <ul><li><strong>Bocetos en papel</strong> para probar formas de organizar la información.</li><li><strong>Wireframes de media fidelidad en Figma</strong>, enfocados en estructura y navegación, sin color.</li><li><strong>Varios caminos</strong> para inicio, servicios, login y notificaciones.</li><li><strong>Sistema visual:</strong> DM Serif Display para títulos, Inter para textos y una paleta verde que transmite confianza y cercanía.</li><li><strong>Alta fidelidad y prototipo interactivo</strong> en Figma para comprobar cómo se siente la navegación.</li></ul>
+    <figure><img src="img/maespro-wireframes.webp" alt="Wireframes de media fidelidad" loading="lazy"><figcaption class="mo sub">Wireframes de media fidelidad en Figma</figcaption></figure><figure><img src="img/maespro-caminos.webp" alt="Variaciones de wireframes" loading="lazy"><figcaption class="mo sub">Probando diferentes caminos</figcaption></figure><figure><img src="img/maespro-alta-fidelidad.webp" alt="Pantallas en alta fidelidad" loading="lazy"><figcaption class="mo sub">Alta fidelidad</figcaption></figure><figure><img src="img/maespro-mockup.webp" alt="Maqueta de la app en teléfonos" loading="lazy"><figcaption class="mo sub">Maqueta final</figcaption></figure><div class="todo"><b>Por completar</b><br>Enlace al prototipo en Figma y una o dos capturas de pantallas clave.</div>
+  </div></section>
+  <section class="sec"><div class="mo sub">06 · Límites</div><div>
+    <h2>Lo que este caso no es.</h2>
+    <p>No hubo pruebas de usabilidad con el prototipo, no hay desarrollo y la investigación fue exploratoria. El siguiente paso lógico sería probar el flujo principal con usuarios reales y ajustar según lo que se observe.</p>
+  </div></section>
+  <section class="sec"><div class="mo sub">07 · Aprendizajes</div><div>
+    <h2>Mi primer proyecto desde cero.</h2>
+    <p>Nació de una necesidad personal. Me enseñó la importancia de investigar antes de diseñar y de decidir pensando en las necesidades reales de los usuarios, y reforzó mi manejo de arquitectura de información, interfaces, prototipado y construcción de experiencias digitales.</p>
+    <a class="btn" href="https://www.behance.net/gallery/258003403/MaesPro-Diseno-UXUI-de-servicios-para-el-hogar" target="_blank" rel="noopener">Ver en Behance</a>
+  </div></section>
+  <nav class="nav2 mo"><a href="index.html#casos">← Todos los casos</a><a href="#big-academy">Ver BIG Academy →</a></nav>
+</main>
+</article>
+
+<article class="case" id="big-academy">
+<header class="dk"><div class="w">
+  <div class="top"><a class="logo" href="index.html">BOCA.</a><a class="mo" href="index.html#casos">← Todos los casos</a></div>
+  <div class="hero">
+    <div class="mo" style="color:var(--silver)">Caso 01 · BOCA / Digital · Creative</div>
+    <h1>BIG Academy<i></i></h1>
+    <p class="sum">Identidad visual y experiencia digital de una academia online para profesionales de la belleza.</p>
+    <div class="meta">
+      <div><b>Empresa</b>MundoBIGcorp</div>
+      <div><b>Plataforma</b>WordPress, Elementor y Tutor LMS</div>
+      <div><b>Estado</b>En producción</div>
+      <div><b>Mi aporte</b>Por confirmar</div>
+    </div>
+  </div>
+</div></header>
+<main class="w">
+  <div class="fw"><figure><img src="img/big-portada.webp" alt="Sitio de BIG Academy en una laptop" loading="lazy"><figcaption class="mo sub">Sitio web de BIG Academy</figcaption></figure></div>
+  <section class="sec"><div class="mo sub">01 · Contexto</div><div>
+    <h2>Una academia para estilistas que quieren seguir aprendiendo.</h2>
+    <p>BIG Academy ofrece cursos online con varios niveles de estudio para profesionales de la belleza. Los cursos se dictan en vivo y luego quedan pregrabados.</p>
+    <div class="stats"><div><b>≈ 25</b>cursos online</div><div><b>≈ 1.500</b>estudiantes en Latinoamérica y otros países</div></div>
+    <div class="todo"><b>Por completar</b><br>Año de lanzamiento (la maqueta muestra un cronograma 2021, confirma si es el año de inicio) y qué parte del proyecto hiciste tú: ¿logo, identidad completa, sitio, contenido?</div>
+  </div></section>
+  <section class="sec"><div class="mo sub">02 · Identidad</div><div>
+    <h2>Marca, color y tipografía.</h2>
+    <p>La marca usa un ícono de libro abierto, que remite al aprendizaje, acompañado de una paleta de azul índigo y un coral cálido. La tipografía combina Poppins para títulos y subtítulos con Questrial para el cuerpo del texto.</p>
+    <figure><img src="img/big-logo.webp" alt="Logo de BIG Academy" loading="lazy"><figcaption class="mo sub">Logo de BIG Academy</figcaption></figure><div class="sw">
+      <div style="background:#1F2051;color:#fff">#1F2051</div><div style="background:#5364E0;color:#fff">#5364E0</div><div style="background:#BAC1F3">#BAC1F3</div><div style="background:#DDE0F9">#DDE0F9</div><div style="background:#FDC2BE">#FDC2BE</div><div style="background:#FB665C">#FB665C</div>
+    </div>
+    <div class="todo"><b>Por completar</b><br>Por qué elegiste estos colores y este símbolo: a quién querías hablarle y qué querías transmitir.</div>
+  </div></section>
+  <section class="sec"><div class="mo sub">03 · Aplicaciones</div><div>
+    <h2>La marca en uso.</h2>
+    <ul><li><strong>Redes sociales:</strong> diseño del perfil de Instagram y piezas con mensajes sobre salud capilar y formación.</li><li><strong>Sitio web:</strong> versión móvil con el mensaje “Bienvenidos a un mundo de posibilidades” y acceso para iniciar sesión.</li><li><strong>Papelería y merchandising:</strong> tarjetas de presentación, libreta y bolsa de tela.</li></ul><figure><img src="img/big-instagram.webp" alt="Perfil de Instagram de BIG Academy" loading="lazy"><figcaption class="mo sub">Redes sociales</figcaption></figure><figure><img src="img/big-web-movil.webp" alt="Versión móvil del sitio" loading="lazy"><figcaption class="mo sub">Versión móvil del sitio</figcaption></figure><figure><img src="img/big-papeleria.webp" alt="Papelería de BIG Academy" loading="lazy"><figcaption class="mo sub">Papelería y merchandising</figcaption></figure>
+  </div></section>
+  <section class="sec"><div class="mo sub">04 · Plataforma</div><div>
+    <h2>De la marca a la experiencia del estudiante.</h2>
+    <p>La academia funciona sobre WordPress, Elementor y Tutor LMS. Además de la identidad, he trabajado en la experiencia de los estudiantes, juegos interactivos para el aprendizaje y piezas orientadas a captar leads.</p>
+    <div class="todo"><b>Por completar</b><br>Una decisión concreta de diseño o de estructura de la plataforma y por qué la tomaste (por ejemplo, cómo organizaste los cursos o la navegación), más una captura del sitio o de un juego interactivo. No incluyo resultados de captación porque aún no hay cifras.</div>
+    <a class="btn" href="https://www.behance.net/gallery/195347663/BIG-Academy" target="_blank" rel="noopener">Ver identidad en Behance</a>
+  </div></section>
+  <nav class="nav2 mo"><a href="index.html#casos">← Todos los casos</a><a href="#maespro">Ver MaesPro →</a></nav>
+</main>
+</article>
+
+<footer class="dk"><div class="w mo">BOCA. · Alejandro Bocanegra Campo · Cali, Colombia</div></footer>
+<script>
+function show(){const h=(location.hash||"#big-academy").slice(1);const t=document.getElementById(h)||document.getElementById("big-academy");
+document.querySelectorAll(".case").forEach(c=>c.classList.toggle("on",c===t));window.scrollTo(0,0)}
+addEventListener("hashchange",show);show();
+</script>
+<script src="fx.js" defer></script>
+</body>
+</html>
